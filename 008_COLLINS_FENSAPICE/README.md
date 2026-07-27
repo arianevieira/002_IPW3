@@ -40,7 +40,9 @@ k-omega SST turbulence model was used. Roughness was included through Sand Grain
 
 **Droplet Trajectory Algorithm:**
 
-Drop3D (Fensap-Ice 2025R2 package) solver was used to compute droplet trajectories. Particle drag was modeled using Extended Reynolds drag model. Default solver accuracy was used for computations. **Thermodynamic Algorithm:**
+Drop3D (Fensap-Ice 2025R2 package) solver was used to compute droplet trajectories. Particle drag was modeled using Extended Reynolds drag model. Default solver accuracy was used for computations. 
+
+**Thermodynamic Algorithm:**
 
 Ice accretion was computed using ICE3D (Fensap-Ice 2025R2 package) solver and extended icing data (EID) module. Impact Ice density model was used for ice density prediction. Simulations were done with single-step approach.
 
@@ -50,5 +52,5 @@ Fensap-ICE is interpolating data from Drop3D droplet trajectory module to Ice3D 
 
 
 
-PL and EU Export Classification: UNCTD, Not Controlled
+PL and EU Export Classification: NSR
 
